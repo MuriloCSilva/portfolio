@@ -1,14 +1,16 @@
 import { useEffect } from "react"
-import Navbar from "./components/navbar"
+
 import AboutMe from "./sections/AboutMe"
 import Contatos from "./sections/Contatos"
 import Experiencia from "./sections/Experiencia"
 import Formacao from "./sections/Formacao"
 import Projetos from "./sections/Projetos"
+import NavbarMobile from "./components/NavbarMobile"
+import Navbar from "./components/Navbar"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import NavbarMobile from "./components/NavbarMobile"
+
 
 function App() {
 
