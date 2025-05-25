@@ -8,7 +8,7 @@ const Formacao = () => {
         {formacao.map((item) => (
           <div 
             key={item.curso} 
-            className="bg-smoky-black-lighter p-8 rounded-md lg:w-[400px] z-50"
+            className="bg-smoky-black-lighter p-8 rounded-md flex flex-col justify-between lg:w-[400px] z-50 mb-4"
           >
             <h2 className="lg:text-xl">{item.curso}</h2>
             <p className="mt-4 text-slate-300 text-sm md:text-base">

@@ -8,10 +8,10 @@ const Experiencia = () => {
             {experienciaProfissional.map((item) => (
                 <div 
                     key={item.empresa}
-                    className="flex mt-8 gap-8"
+                    className="flex mt-8 gap-8 w-[100%] justify-between"
                 >
                     <h3 className="text-slate-300">{item.periodo}</h3>
-                    <div className="flex flex-col gap-3 justify-start">
+                    <div className="flex flex-col gap-3 justify-start flex-1">
                         <h3 className="text-xl">{item.funcao} · {item.empresa}</h3>
                         <p className="text-slate-300 text-sm md:text-base">{item.experiencia}</p>
                         <div className="flex flex-wrap gap-4">{item.tecnologias.map((tecnologia) => (
